@@ -1,0 +1,26 @@
+
+
+.formulario-titulo {
+    color:black;
+    text-align: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 6em;
+
+}
+
+
+
+.formulario-cor {
+    background: #900020;
+    opacity: 1;
+    width: 100%;
+}
+
+
+
+
+.Formulario-label {
+    display: inline-block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');

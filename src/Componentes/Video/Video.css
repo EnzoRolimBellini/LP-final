@@ -1,0 +1,54 @@
+
+
+
+
+.containers-iframe {
+
+    position: relative; 
+    width: 40%;
+    height: 80%;
+    margin-top: 5%;
+    background-color: rgba(250,0,0,0.5);
+  
+    
+
+    
+   
+}
+
+.video {
+    position: relative;
+    right: 1em;
+    bottom: 15px;
+    
+    
+}
+
+.video-texto {
+    
+    background: rgba(0,0,0,0.8); 
+    position: absolute;
+    left: 56%;
+    bottom: 30%;
+    height: 30%;
+
+}
+
+.video-texto span {
+    position: relative;
+    left: 10px;
+    top: 2px;
+    font-size: 110%;
+    font-weight: bold;
+    opacity: none;
+    color: #fff;
+    
+}
+
+
+
+.titulos-menu {
+    position: relative;
+    left: 10px;
+    color: #fff;
+}
