@@ -1,7 +1,19 @@
 
 .contato-section {
     width: 100%;
+    background-image: url(https://images.hdqwalls.com/download/red-gradient-minimal-4k-yj-1360x768.jpg);
 }
+
+.contato-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    position: relative;
+    left: 4%;
+
+}
+
+
 
 .perfil {
     border-radius: 20em;
@@ -15,6 +27,16 @@
     bottom: 5em;
     left: 2em;
     display:inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 110%,
+
+}
+
+.Contato-details {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
 }
 
 .Contato-lista li {
@@ -34,3 +56,5 @@
     width: 4em;
     height: 4em;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
