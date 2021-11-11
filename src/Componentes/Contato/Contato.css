@@ -2,6 +2,10 @@
 .contato-section {
     width: 100%;
     background-image: url(https://images.hdqwalls.com/download/red-gradient-minimal-4k-yj-1360x768.jpg);
+    
+}
+.contato-ul{
+    list-style: none;
 }
 
 .contato-titulo {
@@ -10,16 +14,12 @@
     font-size: 100px;
     position: relative;
     left: 4%;
-
 }
-
-
 
 .perfil {
     border-radius: 20em;
     width: 15%;
     margin-top: 2em;
-    
 }
 
 .nome {
@@ -29,14 +29,12 @@
     display:inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 110%,
-
+    font-size: 110%;
 }
 
 .Contato-details {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-
 }
 
 .Contato-lista li {
@@ -55,6 +53,28 @@
 .Contato-icone {
     width: 4em;
     height: 4em;
+}
+summary{
+    list-style: none;
+}
+summary::-webkit-details-marker {
+display: none
+}
+summary:after {
+background: url(https://images.hdqwalls.com/download/red-gradient-minimal-4k-yj-1360x768.jpg);
+border-radius: 5px;
+content: "+";
+color: #000000;
+float: left;
+font-size: 1.5em;
+font-weight: bold;
+margin: -5px 10px 0 0;
+padding: 0;
+text-align: center;
+width: 20px;
+}
+details[open] summary:after {
+content: "-";
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');

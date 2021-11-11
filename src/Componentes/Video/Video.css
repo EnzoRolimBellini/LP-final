@@ -36,8 +36,8 @@
 
 .video-texto span {
     position: relative;
-    left: 10px;
-    top: 2px;
+    left: 20px;
+    top: 20px;
     font-size: 110%;
     font-weight: bold;
     opacity: none;
@@ -48,6 +48,7 @@
 
 
 .titulos-menu {
+
     position: relative;
     left: 10px;
     color: #fff;
