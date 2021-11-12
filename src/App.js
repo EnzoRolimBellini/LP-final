@@ -2,7 +2,7 @@
 import { Component } from 'react';
 import Cabeçalho from "./Componentes/Cabeçalho";
 import Video from "./Componentes/Video";
-import Formulario from "./Componentes/Formulario";
+import Form from "./Componentes/Form";
 import Contato from "./Componentes/Contato";
 import  "./Assets/App.css";
 import "./Assets/Index.css";
@@ -14,9 +14,9 @@ class App extends Component  {
     return (
         <body className = "App-centraliza">
          <Cabeçalho/>
-        <Video/>
-       <Formulario/>
-       <Contato/>
+         <Video/>
+         <Form/>
+         <Contato/>
         </body>
         )
     }
