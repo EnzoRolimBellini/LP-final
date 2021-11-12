@@ -4,10 +4,10 @@ import Enzo from "../../Assets/img/enzo-2.jpg";
 import Dudu from "../../Assets/img/dudu.jpg";
 import Joao from "../../Assets/img/joao-3.jpg";
 import Teixeira from "../../Assets/img/duduteixeira.jpg";
-import Lista_1 from "./Lista";
-import Lista_2 from "./Lista";
-import Lista_3 from "./Lista";
-import Lista_4 from "./Lista";
+import Lista_1 from "./Lista1";
+import Lista_2 from "./Lista2";
+import Lista_3 from "./Lista3";
+import Lista_4 from "./Lista4";
 
 class Contato extends Component {
   render() {

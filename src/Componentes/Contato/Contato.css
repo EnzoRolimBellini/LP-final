@@ -1,11 +1,19 @@
 
 .contato-section {
     width: 100%;
-    background-image: url(https://images.hdqwalls.com/download/red-gradient-minimal-4k-yj-1360x768.jpg);
+    background-color: #033042;
     
 }
 .contato-ul{
     list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+.Contato-li {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contato-titulo {
@@ -14,11 +22,12 @@
     font-size: 100px;
     position: relative;
     left: 4%;
+    text-align: center;
 }
 
 .perfil {
     border-radius: 20em;
-    width: 15%;
+    width: 30%;
     margin-top: 2em;
 }
 
@@ -37,10 +46,7 @@
     font-weight: bold;
 }
 
-.Contato-lista li {
-    display: inline-block;
-    margin-left: 1em;
-}
+
 
 .celular {
     width: 3em;

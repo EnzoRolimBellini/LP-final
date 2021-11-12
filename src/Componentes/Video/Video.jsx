@@ -3,9 +3,9 @@ import "./Video.css";
 import Fundo from "../../Assets/img/fundo.mp4";
 
 class Video extends Component {
-render() {
+    render() {
     return (
-    <section>
+    <section className="projeto">
         <div className = "background">
             <video autoPlay loop muted
             style = {{
